@@ -1,4 +1,19 @@
+.cartao_conteudo_pergunta,
+.cartao_conteudo_resposta {
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}@media (max-width: 560 px) {
 
+    body {
+        background: url('img/bd-mobile.webp');
+    }
+
+}.cartao__conteudo p {
+    font-size: 3.8vw;
+}
 <article class="cartao">
     <div class="cartao__conteudo">
         <h3>Programação</h3>
