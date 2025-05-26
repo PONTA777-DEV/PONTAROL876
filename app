@@ -1,3 +1,5 @@
+
+<script>
 function criaCartao(categoria, pergunta, resposta) {
     let container = document.getElementById('container')
     let cartao = document.createElement('article')
@@ -27,3 +29,4 @@ function criaCartao(categoria, pergunta, resposta) {
     container.appendChild(cartao)
 
 }
+</script>
