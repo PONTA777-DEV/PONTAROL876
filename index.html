@@ -1,58 +1,59 @@
-!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="index.css">
-   <link
-   href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap">
-   </link>
-
-
-   <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Cards de Vôlei</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <main>
+    <div class="container">
+        <h1>Flash Cards de Vôlei</h1>
+        <div class="flashcard-container">
+            <div class="flashcard" id="flashcard1">
+                <div class="front">
+                    <h2>O que é um "Ataque"?</h2>
+                </div>
+                <div class="back">
+                    <p>É a ação ofensiva de um jogador que busca enviar a bola para a quadra adversária, geralmente com força, para marcar um ponto.</p>
+                </div>
+            </div>
 
+            <div class="flashcard" id="flashcard2">
+                <div class="front">
+                    <h2>Qual a função do "Levantador"?</h2>
+                </div>
+                <div class="back">
+                    <p>É o jogador responsável por armar as jogadas de ataque, distribuindo a bola para os atacantes.</p>
+                </div>
+            </div>
 
-   </main>
-   <footer>
-       <p>Projeto desenvolvido pela Alura, sem fins lucrativos.</p>
-   </footer>
-   <main>
-   <section id="container">
+            <div class="flashcard" id="flashcard3">
+                <div class="front">
+                    <h2>O que significa "Rodízio"?</h2>
+                </div>
+                <div class="back">
+                    <p>Movimentação dos jogadores em sentido horário na quadra a cada vez que sua equipe recupera o saque.</p>
+                </div>
+            </div>
 
+            <div class="flashcard" id="flashcard4">
+                <div class="front">
+                    <h2>O que é um "Bloqueio"?</h2>
+                </div>
+                <div class="back">
+                    <p>Ação defensiva realizada por um ou mais jogadores próximos à rede, com o objetivo de interceptar o ataque adversário.</p>
+                
+                </div>
+            </div>
+            </div>
+        <div class="controls">
+            <button id="prevButton">Anterior</button>
+            <button id="flipButton">Virar Card</button>
+            <button id="nextButton">Próximo</button>
+        </div>
+    </div>
 
-</section>
-<article class="cartao">
-               <div class="cartao__conteudo">
-
-
-               </div>
-           </article>
-           <h3> Programação </h3>
-           <div class="cartao__conteudo__pergunta">
-O que é Java Script?
-</div>
-<div class="cartao__conteudo__resposta">
-O Java Script é uma linguagem de programação.
-</div>
-
-
-<article class="cartao">
-       <div class="cartao__conteudo">
-               <h3> Programação </h3>
-                     <div class="cartao__conteudo__pergunta">
-                           O que é CSS?
-                       </div>                       
-                      <div class="cartao__conteudo__resposta">
-                           O CSS é uma linguagem de estilização.
-                        </div>
-                       </div>
-                          
-        </article>
-
-
+    <script src="script.js"></script>
 </body>
 </html>
-
