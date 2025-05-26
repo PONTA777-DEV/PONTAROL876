@@ -1,53 +1,4 @@
-.cartao_conteudo_pergunta,
-.cartao_conteudo_resposta {
-    backface-visibility: hidden;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    box-sizing: border-box;
-}@media (max-width: 560 px) {
-
-    body {
-        background: url('img/bd-mobile.webp');
-    }
-
-}.cartao__conteudo p {
-    font-size: 3.8vw;
-}
-<article class="cartao">
-    <div class="cartao__conteudo">
-        <h3>Programação</h3>
-        <div class="cartao__conteudo__pergunta">
-            <p>0 que é JavaScript?</p>
-        </div>
-        <div class="cartao__conteudo__resposta">
-            <p>0 JavaScript é uma linguagem de programação</p>
-        </div>
-    </div>
-</article>
-#container {
-    display: flex;
-     flex-wrap: wrap;
-     justify-content: space-between;
-     padding: 4rem;
-     gap: 3rem;
-}criaCartao(
-    categoria,
-    pergunta,
-    resposta
-)
-
 criaCartao(
-    categoria,
-    pergunta,
-    resposta
-)
-
-criaCartao(
-    categoria,
-    pergunta,
-    resposta
-)criaCartao(
     'Programação',
     'O que é Python?',
     'O Python é uma linguagem de programação'
@@ -63,4 +14,10 @@ criaCartao(
     'Programação',
     'O que é uma função?',
     'Uma função é um bloco de código que executa alguma tarefa'
+)
+
+criaCartao(
+    'Lingua inglesa',
+    'Como se diz oi em Inglês?',
+    'Oi em ingles é HI (RAI)'
 )
